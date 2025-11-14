@@ -1,7 +1,7 @@
 #### Reproduce Paper Results
-- Run: Train_image.m (extended data fig.5-c)
-- Run: Train_waveform.m (extended data fig.5-c)
-- Run: testImg.m (extended data fig.5-a/b)
+- Run: Train_image.m (Fig.5b-g)
+- Run: Train_waveform.m
+- Run: testImg.m (Fig.5b-g, Fig. 6c)
 
 
 #### Explaination of files
