@@ -3,7 +3,7 @@ ifclear = 1;
 
 if ifclear
     clear
-    parentDir = '..\..\..\Dataset\data_ emotion_recognition\datasetImage\ImageNorm_divided_10_train_other\Train';
+    parentDir = '..\..\..\Dataset\data_emotion_recognition\datasetImage\ImageNorm_divided_10_train_other\Train';
     allImages = imageDatastore(parentDir, ...
         "IncludeSubfolders",true, ...
         "LabelSource","foldernames");
@@ -15,7 +15,7 @@ if ifclear
     imgsTrain = allImages;
     disp("Number of training images: "+num2str(numel(imgsTrain.Files)))
 
-    parentDir = '..\..\..\Dataset\data_ emotion_recognition\datasetImage\ImageNorm_divided_10_train_other\Test';
+    parentDir = '..\..\..\Dataset\data_emotion_recognition\datasetImage\ImageNorm_divided_10_train_other\Test';
     imgsValidation = imageDatastore(parentDir, ...
         "IncludeSubfolders",true, ...
         "LabelSource","foldernames");

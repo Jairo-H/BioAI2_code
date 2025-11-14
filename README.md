@@ -1,14 +1,18 @@
-
-
 ## System requirements
-- Matlab >= R2021b
-- Python >= 3.7
+
+* Matlab >= R2021b
+* Python >= 3.7
+
 ## Repository overview
-- Codes/
-  - Robot dog interactive application in matlab (app_dog/)
-  - Robot arm control application in matlab (app_robohand/)
-  - Isocontour calculation program (cal_mat/)
-  - Slide track location program (loc_word/)
-  - The peak generating frequencies of different spacing and thickness structures are calculated (fre_cal/)
-- Dataset/
-  - Raw data for different interaction types
+
+* Codes/
+
+  * Robot dog interactive application in matlab (app\_dog/)
+  * Robot arm control application in matlab (app\_robohand/)
+  * Isoline calculation program (cal\_mat/)
+  * Slide track location program (loc\_word/)
+  * The peak generating frequencies of different spacing and thickness structures are calculated (fre\_cal/)
+
+* Dataset/
+
+  * Raw data for different interaction types
